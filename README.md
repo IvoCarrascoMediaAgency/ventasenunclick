@@ -1,2 +1,1 @@
-# tareas
 # ventasenunclick
