@@ -45,3 +45,21 @@ span{
 .diseño{
     text-align: center;
 }
+
+
+.imgwbs{
+    display: block;
+   
+}
+
+
+
+@media screen and (min-width: 950px){
+
+    .imgwbs{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    
+    
+}
