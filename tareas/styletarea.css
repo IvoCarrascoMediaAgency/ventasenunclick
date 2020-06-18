@@ -52,13 +52,20 @@ span{
    
 }
 
+.imgwbs{
+    display: grid;
+    grid-template-rows: 50% ;
+ 
+
+}
 
 
 @media screen and (min-width: 950px){
 
-    .imgwbs{
-        display: grid;
-        grid-template-columns: 60% 40%;
+    .imgblog {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
     }
     
     
