@@ -54,9 +54,13 @@ span{
 
 .imgwbs{
     display: grid;
-    grid-template-rows: 50% ;
+
  
 
+}
+
+img.imgblog {
+    margin-bottom: 50px;
 }
 
 
