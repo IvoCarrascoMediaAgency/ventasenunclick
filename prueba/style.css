@@ -1792,6 +1792,22 @@ a.logoms img{
     display: grid;
 }
 
+.comunidad {
+    display: grid;
+    grid-template-columns: 400px auto;
+
+  
+}
+
+.comunidad iframe {
+    display: grid;
+    position: relative;
+    height: 500px;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+}
+
 
    /*end contador de clientes  */
 
