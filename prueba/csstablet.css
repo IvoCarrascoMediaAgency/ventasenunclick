@@ -1,0 +1,48 @@
+.portadafull {
+    display: grid;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(37,211,102,.6)0%, rgba(255,255,255,0.01) 65%);
+}
+
+
+.text {
+    display: grid;
+    grid-gap: 100px;
+}
+
+.text3 {
+   
+    font-size: 3em;
+    
+}
+
+.menulanding a {
+
+    font-size: 1em;
+}
+
+
+.logowbs2 a {
+
+    font-size: 1.2em;
+}
+
+.logoimg {
+  
+    grid-template-columns: 50px auto;
+}
+
+.logowbs img {
+    height: 40px;
+    width: 40px;
+   
+}
+
+.menulanding a {
+    font-size: .8em;
+}
+
+.boton a {
+    
+    font-size: .8em;
+}
