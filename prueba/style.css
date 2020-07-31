@@ -1060,10 +1060,8 @@ img.imgpgrid {
 }
 
 .que2 {
-    height: 80vh;
+    height: 100%;
     display: grid;
-
-height: 80vh;
 align-content: center;
 background-image: linear-gradient(to left, rgba(37, 211, 102, .8), rgba(255, 255, 255, 0)80%);
 background-origin: content-box;
@@ -1286,7 +1284,7 @@ img.imgcliente {
 
 
 .etiquetas {
-    background: #e5f5fa;
+    background: #e9faef;
 }
 
 
@@ -1484,7 +1482,7 @@ span.icon-whatsapp.wm {
     font-weight: bold;
     color: #1fbea5;
     box-shadow: 10px 10px 34px -11px rgba(0,0,0,.8);
-    background: #e5f5fa;
+    background: #e9faef;
     
 }
 
@@ -1517,7 +1515,7 @@ display: grid;
     align-items: center;
     justify-content: center;
     grid-gap: 10px;
-    background: #e5f5fa;
+    background: #e9faef;
     border: 1px solid #dbdada;
     border-radius: 10px;
     cursor: pointer;
@@ -1658,13 +1656,16 @@ h3.h3wbs {
 }
 
 .divh3{
-    background: #e5f5fa;
+    background: #e9faef;
     display: grid;
     height: 200px;
     align-items: center;
     align-content: center;
     margin-bottom: 100px;
     margin-top: 100px;
+}
+.divh3.h3comunidad {
+    margin-top: 0;
 }
 
 p.pcf.pcfs {
@@ -1794,7 +1795,9 @@ a.logoms img{
 
 .comunidad {
     display: grid;
-    grid-template-columns: 400px auto;
+    grid-template-rows: auto auto;
+   
+    justify-content: center;
 
   
 }
@@ -1804,8 +1807,7 @@ a.logoms img{
     position: relative;
     height: 500px;
     margin: auto;
-    justify-content: center;
-    width: 90%;
+    width: auto;
 }
 
 
@@ -1819,6 +1821,11 @@ a.logoms img{
 /* Tablets */
 
 @media screen and (min-width: 768px){
+
+    .comunidad {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     a.logoms img {
         display: none;
     }
@@ -2276,7 +2283,7 @@ a.logoms {
 
 
 .etiquetas {
-    background: #e5f5fa;
+    background: #e9faef;
 }
 
 
@@ -2388,7 +2395,7 @@ li.eti1,li.eti2,li.eti3,li.eti4,li.eti5,li.eti6,li.eti7,li.eti8  {
     -webkit-box-pack: left;
     justify-content: left;
     position: relative;
-    background: #e5f5fa;
+    background: #e9faef;
 }
 
 
@@ -2475,7 +2482,7 @@ span.icon-whatsapp.wm {
     font-weight: bold;
     color: #1fbea5;
     box-shadow: 10px 10px 34px -11px rgba(0,0,0,.8);
-    background: #e5f5fa;
+    background: #e9faef;
     
 }
 
