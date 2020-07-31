@@ -1666,8 +1666,12 @@ h3.h3wbs {
 }
 .divh3.h3comunidad {
     margin-top: 0;
+    margin-bottom: 0;
 }
-
+.h3comunidad h3.h3wbs {
+   
+    font-size: 1.2em;
+}
 p.pcf.pcfs {
  
     max-width: 1024px;
