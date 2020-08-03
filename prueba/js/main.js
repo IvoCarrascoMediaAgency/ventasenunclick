@@ -1,30 +1,4 @@
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("container").style.top = "0";
-  } else {
-    document.getElementById("container").style.top = "-95px";
-  }
-  prevScrollpos = currentScrollPos;
-}
 
-$(document).ready(function(){
- 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('header').addClass('colormenu1');
-      $('.menu').addClass('colormenu2');
-     
-	
-		} else {
-			$('header').removeClass('colormenu1');
-      $('.menu').removeClass('colormenu2');
-     
-		}
-	});
- 
-});
 
 
 
@@ -61,7 +35,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
 
   })
@@ -73,7 +47,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
   })
 
@@ -84,7 +58,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
   })
 
@@ -95,7 +69,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos3 , .datos3b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
   })
 
@@ -106,7 +80,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos3 , .datos3b').removeClass('show');
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
   })
 
@@ -117,12 +91,12 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos3 , .datos3b').removeClass('show');
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     $('.datos8 , .datos8b').removeClass('show');
   })
 
   $('.eti7 , .etib7').on('click', function(){
-    $('.datos7 , .datos7b').addClass('show');
+    $('.datos7 , .datos7x').addClass('show');
     $('.datos1 , .datos1b').removeClass('show');
     $('.datos2 , .datos2b').removeClass('show');
     $('.datos3 , .datos3b').removeClass('show');
@@ -140,7 +114,7 @@ $('.eti1 , .eti1b').on('click', function(){
     $('.datos4 , .datos4b').removeClass('show');
     $('.datos5 , .datos5b').removeClass('show');
     $('.datos6 , .datos6b').removeClass('show');
-    $('.datos7 , .datos7b').removeClass('show');
+    $('.datos7 , .datos7x').removeClass('show');
     
   })
 
@@ -275,7 +249,7 @@ $('.cardnegocio').on('click', function(){
   
 
   
-$('.num').counterUp({delay:1,time:200});
+// $('.num').counterUp({delay:1,time:200});
   
 
 
